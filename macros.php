@@ -1,6 +1,6 @@
 <?php
 
-/*Repeater multiple post field macros with link and title */
+/* Repeater multiple post field macros with link and title */
 
 add_filter( 'jet-engine/listings/filters-list', function($cb){
 $cb['post_link_by_ids'] = array(
@@ -9,10 +9,7 @@ $cb['post_link_by_ids'] = array(
 );
 
 return $cb;
-});
-
-// You need to use this macro: %post-field|post_link_by_ids%
-
+}); // You need to use this macro: %post-field|post_link_by_ids%
 
 
 ?>
